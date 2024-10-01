@@ -4,7 +4,7 @@ FROM cepgbaseacr.azurecr.io/docker.io/openjdk:17-slim
 # FROM openjdk:8-jdk-alpine
 # FROM openjdk:11-jdk-alpine
 
-# CMD ["./gradlew", "clean", "build"]
+CMD ["./gradlew", "clean", "build"]
 # or Maven 
 # CMD ["./mvnw", "clean", "package"]
 
