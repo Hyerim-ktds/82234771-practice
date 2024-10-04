@@ -80,5 +80,5 @@ jobs:
         git config --global user.email "hyerim.ktds@gmail.com"
         git config --global user.name "Hyerim-ktds"
         git commit -am "Update image tag"
-        git pull -u origin main
+        git pull origin main
         git push -u origin main
